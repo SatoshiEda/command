@@ -1,0 +1,6 @@
+git コマンド一覧
+
+gitの管理下に指定する
+ % git init
+ Initialized empty Git repository in {パス}.git/
+上記のメッセージが出て「.git」ディレクトリが作成されればOK
