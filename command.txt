@@ -1,6 +1,17 @@
 git コマンド一覧
 
-gitの管理下に指定する
+■gitの管理下に指定する
  % git init
  Initialized empty Git repository in {パス}.git/
 上記のメッセージが出て「.git」ディレクトリが作成されればOK
+
+■ファイルをインデックスする
+% git add .
+
+■ステージングされた内容を確認する
+% git ls-files --stage
+もしくは
+% git status
+
+■コミット
+% git commit -m "最初のコミット"
