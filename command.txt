@@ -24,7 +24,7 @@ nothing to commit, working tree clean
 modified:   sample.txt
 
 ■リモートリポジトリを指定
-% git remote add origin https://github.com/ユーザー名/ブランチ名.git
+% git remote add origin https://github.com/ユーザー名/リポジトリ名.git
 
 ■接続先のリモートリポジトリを確認
 % git remote -v
@@ -45,4 +45,8 @@ origin  https://github.com/ユーザー名/ブランチ名.git (push)
   main
 * test-branch
 
-
+■作成したブランチにpushする
+% git push -u origin test-branch
+以降
+% git push
+でorigin test-branchにpushできる
